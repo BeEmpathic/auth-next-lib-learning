@@ -7,6 +7,7 @@ const authOptions: AuthOptions = {
       clientSecret: process.env.GITHUB_SECRET,
     }),
   ],
+  secret: process.env.NEXTAUTH_SECRET,
 };
 
 const getSession = () => getServerSession(authOptions);
