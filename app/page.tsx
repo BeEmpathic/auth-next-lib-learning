@@ -3,7 +3,8 @@ import { signIn } from "next-auth/react";
 
 export default function Home() {
   // Welcome to endless TODOS !!!!!!!!!!!!!!!!!!:
-  // Make a registration form
+  // - Make so user can sign in with it's own credentials good luck cause it requires a freaking mailing server which is another story xD
+  // as a good part you would have to do the mailing server anyway xD
 
   return (
     <div>
